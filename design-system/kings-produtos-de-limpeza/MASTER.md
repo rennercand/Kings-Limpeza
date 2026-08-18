@@ -19,30 +19,27 @@
 
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#1E293B` | `--color-primary` |
-| On Primary | `#FFFFFF` | `--color-on-primary` |
-| Secondary | `#334155` | `--color-secondary` |
-| Accent/CTA | `#DC2626` | `--color-accent` |
-| Background | `#F8FAFC` | `--color-background` |
-| Foreground | `#0F172A` | `--color-foreground` |
-| Muted | `#E9EDF1` | `--color-muted` |
-| Border | `#E2E8F0` | `--color-border` |
-| Destructive | `#DC2626` | `--color-destructive` |
-| Ring | `#1E293B` | `--color-ring` |
+| Primary | `#00D9FF` | `--color-primary` |
+| On Primary | `#001018` | `--color-primary-foreground` |
+| Secondary | `#0D1B2F` | `--color-secondary` |
+| Accent/CTA | `#22D3EE` | `--color-neon` |
+| Background | `#030712` | `--color-background` |
+| Foreground | `#F8FAFC` | `--color-foreground` |
+| Muted | `#101B2C` | `--color-muted` |
+| Border | `rgba(56, 189, 248, 0.16)` | `--color-border` |
+| Destructive | `#FB7185` | `--color-destructive` |
+| Ring | `#22D3EE` | `--color-ring` |
 
-**Color Notes:** Premium dark + action red
+**Color Notes:** Dark Tech premium com cyan neon como ação e estado de foco.
 
 ### Typography
 
-- **Heading Font:** Orbitron
-- **Body Font:** JetBrains Mono
-- **Mood:** cyberpunk, neon, glitch, hud, sci-fi, dark, matrix green, magenta, chamfered, tactical
-- **Google Fonts:** [Orbitron + JetBrains Mono](https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@700;900&display=swap)
+- **Heading Font:** Geist
+- **Body Font:** Geist
+- **Technical Labels:** Geist Mono
+- **Mood:** premium, tecnológico, automotivo, escuro, preciso e editorial
 
-**CSS Import:**
-```css
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@700;900&display=swap');
-```
+As fontes são carregadas por `next/font` para evitar requisição bloqueante e mudança de layout.
 
 ### Spacing Variables
 

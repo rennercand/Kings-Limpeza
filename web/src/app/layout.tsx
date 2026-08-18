@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+import { CartProvider } from "@/components/cart/cart-provider";
+
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -25,8 +27,8 @@ export const viewport: Viewport = { themeColor: "#030712", colorScheme: "dark" }
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} dark`}>
-      <body>{children}</body>
+    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} dark`} data-scroll-behavior="smooth">
+      <body><CartProvider>{children}</CartProvider></body>
     </html>
   );
 }

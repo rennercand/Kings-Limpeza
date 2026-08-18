@@ -22,6 +22,9 @@ PWA comercial da Kings para catálogo, pedidos e operação de produtos de limpe
 │       ├── app/                   # Rotas, metadata, manifesto e offline
 │       ├── components/
 │       │   ├── marketing/         # Seções da landing
+│       │   ├── catalog/           # Busca, filtros e cards de produtos
+│       │   ├── cart/              # Estado e componentes do carrinho
+│       │   ├── checkout/          # Formulário e resumo do pedido
 │       │   ├── site/              # Header, footer e marca
 │       │   └── ui/                # Primitivos reutilizáveis / shadcn
 │       ├── config/                # Configuração pública do produto
